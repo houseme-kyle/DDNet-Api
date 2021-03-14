@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDNet.Client.Api", "src\DDNet.Client.Api\DDNet.Client.Api.csproj", "{A0CFB463-B4E6-40B0-81D5-5F472B77AF8F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{96A86AEF-7300-4D44-B5E4-C28196033926}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{522CE751-42DD-4899-B6B9-967D092AB1B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{E9D58945-7AFB-40E7-B521-BB440FF8E040}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{1B7327CE-4129-4234-9F11-C2AFA3A0F573}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDNet.Infrastructure", "src\DDNet.Infrastructure\DDNet.Infrastructure.csproj", "{8C35355E-3497-4B44-A970-38EB4BB632C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{F159799F-AE24-4386-8B93-3B885922DC5C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDNet.Application", "src\DDNet.Application\DDNet.Application.csproj", "{C4BC6A4F-12E0-46AF-81AF-6B1641F5EB59}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{A545ED2A-6FF6-4B15-9549-86B37F95D62C}"
+	ProjectSection(SolutionItems) = preProject
+		2021-03-14-initial.sql = 2021-03-14-initial.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0CFB463-B4E6-40B0-81D5-5F472B77AF8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0CFB463-B4E6-40B0-81D5-5F472B77AF8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0CFB463-B4E6-40B0-81D5-5F472B77AF8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0CFB463-B4E6-40B0-81D5-5F472B77AF8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C35355E-3497-4B44-A970-38EB4BB632C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C35355E-3497-4B44-A970-38EB4BB632C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C35355E-3497-4B44-A970-38EB4BB632C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C35355E-3497-4B44-A970-38EB4BB632C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4BC6A4F-12E0-46AF-81AF-6B1641F5EB59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4BC6A4F-12E0-46AF-81AF-6B1641F5EB59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4BC6A4F-12E0-46AF-81AF-6B1641F5EB59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4BC6A4F-12E0-46AF-81AF-6B1641F5EB59}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A0CFB463-B4E6-40B0-81D5-5F472B77AF8F} = {96A86AEF-7300-4D44-B5E4-C28196033926}
+		{96A86AEF-7300-4D44-B5E4-C28196033926} = {522CE751-42DD-4899-B6B9-967D092AB1B8}
+		{1B7327CE-4129-4234-9F11-C2AFA3A0F573} = {522CE751-42DD-4899-B6B9-967D092AB1B8}
+		{8C35355E-3497-4B44-A970-38EB4BB632C0} = {1B7327CE-4129-4234-9F11-C2AFA3A0F573}
+		{F159799F-AE24-4386-8B93-3B885922DC5C} = {522CE751-42DD-4899-B6B9-967D092AB1B8}
+		{C4BC6A4F-12E0-46AF-81AF-6B1641F5EB59} = {F159799F-AE24-4386-8B93-3B885922DC5C}
+		{A545ED2A-6FF6-4B15-9549-86B37F95D62C} = {E9D58945-7AFB-40E7-B521-BB440FF8E040}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E97BEB41-5FA2-40EC-A211-DC7F32E9C2F4}
+	EndGlobalSection
+EndGlobal
